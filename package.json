@@ -7,6 +7,14 @@
     "test": "node test.js"
   },
   "keywords": ["check", "number", "integer", "float", "NaN", "finite", "infinity", "odd", "even", "array", "object", "string", "date", "binary", "URL", "file-type"],
-  "author": "Mahmud",
-  "license": "MIT"
+  "author": "Seiam Al Mahmud",
+  "license": "MIT",
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/SeiamAlMahmud/is-check-mahmud.git"
+},
+"bugs": {
+  "url": "https://github.com/SeiamAlMahmud/is-check-mahmud/issues"
+},
+"homepage": "https://github.com/SeiamAlMahmud/is-check-mahmud#readme"
 }
