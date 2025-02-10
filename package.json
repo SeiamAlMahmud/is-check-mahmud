@@ -1,0 +1,12 @@
+{
+  "name": "is-check-mahmud",
+  "version": "1.0.0",
+  "description": "A package to check various data types like odd, even, array, object, string, date, binary, and file types like PNG, SVG, MP3, MP4, etc.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": ["check", "odd", "even", "array", "object", "string", "date", "binary", "file-type"],
+  "author": "Mahmud",
+  "license": "MIT"
+}
