@@ -28,9 +28,11 @@ yarn add is-check-mahmud
 ```
 
 ## 📌 Import The package  
+```
 const isCheck = require("is-check-mahmud");
-
+```
 ## 📌 Check basic data types 
+```
 console.log(isCheck.isNumber(123));      // true
 console.log(isCheck.isString("Hello"));  // true
 console.log(isCheck.isArray([1, 2, 3])); // true
@@ -38,16 +40,16 @@ console.log(isCheck.isObject({ key: "value" })); // true
 console.log(isCheck.isNull(null));       // true
 console.log(isCheck.isUndefined(undefined)); // true
 
-
+```
 
 ## 📌 Check even/odd numbers
-
+```
 console.log(isCheck.isEven(10)); // true
 console.log(isCheck.isOdd(7));   // true
-
+```
 
 ## 📌 Check URLS and File types
-
+```
 console.log(isCheck.isURL("https://example.com")); // true
 console.log(isCheck.isBinary("1010101"));         // true
 console.log(isCheck.isSVG("<svg></svg>"));         // true
@@ -56,12 +58,13 @@ console.log(isCheck.isJPEG("image.jpeg"));        // true
 console.log(isCheck.isMP3("audio.mp3"));          // true
 console.log(isCheck.isMP4("video.mp4"));          // true
 console.log(isCheck.isWebP("image.webp"));        // true
-
+```
 ## 📌 Check URLS and File types
+```
 console.log(isCheck.getFileType("https://example.com/image.png")); // "png"
 console.log(isCheck.getFileType("C:/Users/user/music.mp3")); // "mp3"
 
-
+```
 
 ## API Methods
 | Method                | Description                                                      | Example Usage                                            |
