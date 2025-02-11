@@ -1,6 +1,6 @@
 {
-  "name": "is-check-mahmud",
-  "version": "1.2.3",
+  "name": "checking-values",
+  "version": "1.2.5",
   "description": "A package to check various data types like number, integer, float, NaN, finite, infinity, odd, even, array, object, string, date, binary, URL, and file types like PNG, SVG, MP3, MP4, etc.",
   "main": "index.js",
   "scripts": {

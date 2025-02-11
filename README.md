@@ -20,16 +20,16 @@
 
 ### Using npm:  
 ```sh
-npm install is-check-mahmud
+npm install checking-values
 ```
 ### Using yarn:  
 ```sh
-yarn add  is-check-mahmud
+yarn add  checking-values
 ```
 
 ## 📌 Import The package  
 ```
-const isCheck = require("is-check-mahmud");
+const isCheck = require("checking-values");
 ```
 ## 📌 Check basic data types 
 ```
