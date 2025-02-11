@@ -1,17 +1,34 @@
 {
-  "name": "@mahmud/isCheck",
+  "name": "@mahmud/ischeck",
   "version": "1.2.2",
   "description": "A package to check various data types like number, integer, float, NaN, finite, infinity, odd, even, array, object, string, date, binary, URL, and file types like PNG, SVG, MP3, MP4, etc.",
   "main": "index.js",
   "scripts": {
     "test": "node test.js"
   },
-  "keywords": ["check", "number", "integer", "float", "NaN", "finite", "infinity", "odd", "even", "array", "object", "string", "date", "binary", "URL", "file-type"],
+  "keywords": [
+    "check",
+    "number",
+    "integer",
+    "float",
+    "NaN",
+    "finite",
+    "infinity",
+    "odd",
+    "even",
+    "array",
+    "object",
+    "string",
+    "date",
+    "binary",
+    "URL",
+    "file-type"
+  ],
   "author": "Seiam Al Mahmud",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/SeiamAlMahmud/is-check-mahmud.git"
+    "url": "git+https://github.com/SeiamAlMahmud/is-check-mahmud.git"
   },
   "bugs": {
     "url": "https://github.com/SeiamAlMahmud/is-check-mahmud/issues"
