@@ -34,6 +34,17 @@ const isCheck = require("is-check-mahmud");
 ## 📌 Check basic data types 
 ```
 console.log(isCheck.isNumber(123));      // true
+
+console.log(check.isInteger(10)); // true
+console.log(check.isFloat(10.5)); // true
+console.log(check.isNaNValue(NaN)); // true
+console.log(check.isFiniteNumber(100)); // true
+console.log(check.isFiniteNumber(Infinity)); // false
+console.log(check.isInfinity(Infinity)); // true
+console.log(check.isInfinity(-Infinity)); // true
+
+```
+```
 console.log(isCheck.isString("Hello"));  // true
 console.log(isCheck.isArray([1, 2, 3])); // true
 console.log(isCheck.isObject({ key: "value" })); // true
@@ -70,6 +81,11 @@ console.log(isCheck.getFileType("C:/Users/user/music.mp3")); // "mp3"
 | Method                | Description                                                      | Example Usage                                            |
 |-----------------------|------------------------------------------------------------------|----------------------------------------------------------|
 | `isNumber(value)`      | Check if the value is a number                                   | `isCheck.isNumber(123) // true`                           |
+| `isInteger(value)`      | Check if the value is a integer                                   | `isCheck.isInteger(123) // true`                           |
+| `isFloat(value)`      | Check if the value is a floating point number                                   | `isCheck.isFloat(10.5) // true`                           |
+| `isNaNValue(value)`      | Check if the value is a NaN                                   | `isCheck.isNaNValue(NaN) // true`                           |
+| `isFiniteNumber(value)`      | Check if the value is a Infinite number                                   | `isCheck.isFiniteNumber(100) // true`                           |
+| `isInfinity(value)`      | Check if the value is a Infinity or -Infinity                                   | `isCheck.isInfinity(Infinity) // true`                           |
 | `isString(value)`      | Check if the value is a string                                   | `isCheck.isString("Hello") // true`                       |
 | `isArray(value)`       | Check if the value is an array                                   | `isCheck.isArray([1, 2, 3]) // true`                      |
 | `isObject(value)`      | Check if the value is an object                                  | `isCheck.isObject({key: "value"}) // true`                |
