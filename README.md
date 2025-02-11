@@ -20,16 +20,16 @@
 
 ### Using npm:  
 ```sh
-npm install @mahmud/ischeck 
+npm install is-check-mahmud
 ```
 ### Using yarn:  
 ```sh
-yarn add  @mahmud/ischeck
+yarn add  is-check-mahmud
 ```
 
 ## 📌 Import The package  
 ```
-const isCheck = require("@mahmud/ischeck");
+const isCheck = require("is-check-mahmud");
 ```
 ## 📌 Check basic data types 
 ```
